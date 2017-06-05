@@ -21,7 +21,6 @@
 		DDF8C4851EE2F069004715F8 /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C47C1EE2F069004715F8 /* ItemView.m */; };
 		DDF8C48A1EE2F094004715F8 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4891EE2F094004715F8 /* UIColor+Utils.m */; };
 		DDF8C48E1EE2F0C1004715F8 /* MenuBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C48D1EE2F0C1004715F8 /* MenuBarView.m */; };
-		DDF8C4921EE2F0F1004715F8 /* JudgmentRegularHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4901EE2F0F1004715F8 /* JudgmentRegularHelper.m */; };
 		DDF8C4961EE2F105004715F8 /* UIView+YYHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4951EE2F105004715F8 /* UIView+YYHFrame.m */; };
 		DDF8C4D81EE2FE4A004715F8 /* LORequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4D71EE2FE4A004715F8 /* LORequestManger.m */; };
 		DDF8C4E21EE39A11004715F8 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8C4E11EE39A11004715F8 /* MAMapKit.framework */; };
@@ -114,6 +113,7 @@
 		DDF8C62E1EE509B3004715F8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61C1EE509B3004715F8 /* UIRefreshControl+AFNetworking.m */; };
 		DDF8C62F1EE509B3004715F8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61E1EE509B3004715F8 /* UIWebView+AFNetworking.m */; };
 		DDF8C63E1EE5105D004715F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C63D1EE5105D004715F8 /* AppDelegate.m */; };
+		DDF8C6421EE512BE004715F8 /* JudgmentRegularHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C6411EE512BE004715F8 /* JudgmentRegularHelper.m */; };
 		EC5F94083E88B20DE28D280E /* libPods-YTShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */; };
 /* End PBXBuildFile section */
 
@@ -145,8 +145,6 @@
 		DDF8C4891EE2F094004715F8 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		DDF8C48C1EE2F0C1004715F8 /* MenuBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBarView.h; sourceTree = "<group>"; };
 		DDF8C48D1EE2F0C1004715F8 /* MenuBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBarView.m; sourceTree = "<group>"; };
-		DDF8C48F1EE2F0F1004715F8 /* JudgmentRegularHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgmentRegularHelper.h; sourceTree = "<group>"; };
-		DDF8C4901EE2F0F1004715F8 /* JudgmentRegularHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgmentRegularHelper.m; sourceTree = "<group>"; };
 		DDF8C4941EE2F105004715F8 /* UIView+YYHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYHFrame.h"; sourceTree = "<group>"; };
 		DDF8C4951EE2F105004715F8 /* UIView+YYHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYHFrame.m"; sourceTree = "<group>"; };
 		DDF8C4981EE2F131004715F8 /* AppHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHeader.h; sourceTree = "<group>"; };
@@ -332,6 +330,8 @@
 		DDF8C61E1EE509B3004715F8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		DDF8C63C1EE5105D004715F8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDF8C63D1EE5105D004715F8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF8C6401EE512BE004715F8 /* JudgmentRegularHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgmentRegularHelper.h; sourceTree = "<group>"; };
+		DDF8C6411EE512BE004715F8 /* JudgmentRegularHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgmentRegularHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,9 +519,9 @@
 		DDF8C4861EE2F086004715F8 /* OtherSource */ = {
 			isa = PBXGroup;
 			children = (
+				DDF8C63F1EE51233004715F8 /* Regular */,
 				DDF8C5221EE3AB23004715F8 /* Tools */,
 				DDF8C4931EE2F100004715F8 /* UIView+YYHFrame */,
-				DDF8C4911EE2F0F1004715F8 /* Regular */,
 				DDF8C48B1EE2F0BC004715F8 /* MenuBarView */,
 				DDF8C4871EE2F094004715F8 /* Public */,
 			);
@@ -544,16 +544,6 @@
 				DDF8C48D1EE2F0C1004715F8 /* MenuBarView.m */,
 			);
 			path = MenuBarView;
-			sourceTree = "<group>";
-		};
-		DDF8C4911EE2F0F1004715F8 /* Regular */ = {
-			isa = PBXGroup;
-			children = (
-				DDF8C48F1EE2F0F1004715F8 /* JudgmentRegularHelper.h */,
-				DDF8C4901EE2F0F1004715F8 /* JudgmentRegularHelper.m */,
-			);
-			name = Regular;
-			path = ../../../../pc6/YTShared/YTShared/OtherSource/Regular;
 			sourceTree = "<group>";
 		};
 		DDF8C4931EE2F100004715F8 /* UIView+YYHFrame */ = {
@@ -914,6 +904,15 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		DDF8C63F1EE51233004715F8 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8C6401EE512BE004715F8 /* JudgmentRegularHelper.h */,
+				DDF8C6411EE512BE004715F8 /* JudgmentRegularHelper.m */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1062,6 +1061,7 @@
 				DDF8C6251EE509B3004715F8 /* AFURLRequestSerialization.m in Sources */,
 				DDF8C5621EE42C70004715F8 /* NSString+MJExtension.m in Sources */,
 				DDF8C62B1EE509B3004715F8 /* UIButton+AFNetworking.m in Sources */,
+				DDF8C6421EE512BE004715F8 /* JudgmentRegularHelper.m in Sources */,
 				DDF8C5411EE42BD5004715F8 /* NetWorkToolManager.m in Sources */,
 				DDF8C57A1EE43028004715F8 /* MainNavgationController.m in Sources */,
 				DDF8C48E1EE2F0C1004715F8 /* MenuBarView.m in Sources */,
@@ -1116,7 +1116,6 @@
 				DDF8C5EA1EE50236004715F8 /* CreditViewController.m in Sources */,
 				DDF8C62C1EE509B3004715F8 /* UIImageView+AFNetworking.m in Sources */,
 				DDF8C55B1EE42C70004715F8 /* MJProperty.m in Sources */,
-				DDF8C4921EE2F0F1004715F8 /* JudgmentRegularHelper.m in Sources */,
 				DDF8C5831EE43BDE004715F8 /* MTSearchBar.m in Sources */,
 				DDF8C58A1EE43C88004715F8 /* LocationTableViewCell.m in Sources */,
 				DDF8C5F21EE50236004715F8 /* RulesViewController.m in Sources */,
