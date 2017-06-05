@@ -114,6 +114,11 @@
 		DDF8C62F1EE509B3004715F8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61E1EE509B3004715F8 /* UIWebView+AFNetworking.m */; };
 		DDF8C63E1EE5105D004715F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C63D1EE5105D004715F8 /* AppDelegate.m */; };
 		DDF8C6421EE512BE004715F8 /* JudgmentRegularHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C6411EE512BE004715F8 /* JudgmentRegularHelper.m */; };
+		DDF8C6441EE521D0004715F8 /* CardPointHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C6431EE521D0004715F8 /* CardPointHistory.storyboard */; };
+		DDF8C6461EE5222D004715F8 /* CardPoint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C6451EE5222D004715F8 /* CardPoint.storyboard */; };
+		DDF8C6491EE52D50004715F8 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C6481EE52D50004715F8 /* NSString+Extension.m */; };
+		DDF8C64E1EE52DA0004715F8 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C64B1EE52DA0004715F8 /* SAMKeychain.m */; };
+		DDF8C64F1EE52DA0004715F8 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C64D1EE52DA0004715F8 /* SAMKeychainQuery.m */; };
 		EC5F94083E88B20DE28D280E /* libPods-YTShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */; };
 /* End PBXBuildFile section */
 
@@ -332,6 +337,14 @@
 		DDF8C63D1EE5105D004715F8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDF8C6401EE512BE004715F8 /* JudgmentRegularHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgmentRegularHelper.h; sourceTree = "<group>"; };
 		DDF8C6411EE512BE004715F8 /* JudgmentRegularHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgmentRegularHelper.m; sourceTree = "<group>"; };
+		DDF8C6431EE521D0004715F8 /* CardPointHistory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CardPointHistory.storyboard; sourceTree = "<group>"; };
+		DDF8C6451EE5222D004715F8 /* CardPoint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CardPoint.storyboard; sourceTree = "<group>"; };
+		DDF8C6471EE52D50004715F8 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		DDF8C6481EE52D50004715F8 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		DDF8C64A1EE52DA0004715F8 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		DDF8C64B1EE52DA0004715F8 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		DDF8C64C1EE52DA0004715F8 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		DDF8C64D1EE52DA0004715F8 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,6 +497,8 @@
 				DDF8C4741EE2F069004715F8 /* NearVC.m */,
 				DDF8C57E1EE43AFE004715F8 /* SearchViewController.h */,
 				DDF8C57F1EE43AFE004715F8 /* SearchViewController.m */,
+				DDF8C6431EE521D0004715F8 /* CardPointHistory.storyboard */,
+				DDF8C6451EE5222D004715F8 /* CardPoint.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -569,6 +584,10 @@
 		DDF8C49D1EE2FE16004715F8 /* TheThird */ = {
 			isa = PBXGroup;
 			children = (
+				DDF8C64A1EE52DA0004715F8 /* SAMKeychain.h */,
+				DDF8C64B1EE52DA0004715F8 /* SAMKeychain.m */,
+				DDF8C64C1EE52DA0004715F8 /* SAMKeychainQuery.h */,
+				DDF8C64D1EE52DA0004715F8 /* SAMKeychainQuery.m */,
 				DDF8C5F81EE509A6004715F8 /* AFNetworking */,
 				DDF8C53F1EE42BD5004715F8 /* NetWorkToolManager.h */,
 				DDF8C5401EE42BD5004715F8 /* NetWorkToolManager.m */,
@@ -776,6 +795,8 @@
 		DDF8C5741EE42F27004715F8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DDF8C6471EE52D50004715F8 /* NSString+Extension.h */,
+				DDF8C6481EE52D50004715F8 /* NSString+Extension.m */,
 				DDF8C5781EE43028004715F8 /* MainNavgationController.h */,
 				DDF8C5791EE43028004715F8 /* MainNavgationController.m */,
 				DDF8C5751EE42F32004715F8 /* CCButton.h */,
@@ -985,10 +1006,12 @@
 				DDF8C5EB1EE50236004715F8 /* CreditViewController.xib in Resources */,
 				DDF8C44E1EE2E48C004715F8 /* Assets.xcassets in Resources */,
 				DDF8C5ED1EE50236004715F8 /* HistoryViewController.xib in Resources */,
+				DDF8C6441EE521D0004715F8 /* CardPointHistory.storyboard in Resources */,
 				DDF8C58B1EE43C88004715F8 /* LocationTableViewCell.xib in Resources */,
 				DDF8C4841EE2F069004715F8 /* ShareVC.xib in Resources */,
 				DDF8C4491EE2E48C004715F8 /* Main.storyboard in Resources */,
 				DDF8C5F71EE50236004715F8 /* TripViewController.xib in Resources */,
+				DDF8C6461EE5222D004715F8 /* CardPoint.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,6 +1076,7 @@
 				DDF8C5181EE3AA52004715F8 /* ErrorInfoUtility.m in Sources */,
 				DDF8C5381EE41E76004715F8 /* LocationBikeVM.m in Sources */,
 				DDF8C5321EE41CB1004715F8 /* MACenterPinAnnotationView.m in Sources */,
+				DDF8C6491EE52D50004715F8 /* NSString+Extension.m in Sources */,
 				DDF8C5701EE42EB4004715F8 /* MMDrawerController.m in Sources */,
 				DDF8C6291EE509B3004715F8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				DDF8C4611EE2F046004715F8 /* BaseTabBarController.m in Sources */,
@@ -1107,6 +1131,7 @@
 				DDF8C55C1EE42C70004715F8 /* MJPropertyKey.m in Sources */,
 				DDF8C51C1EE3AA52004715F8 /* LineDashPolyline.m in Sources */,
 				DDF8C61F1EE509B3004715F8 /* AFHTTPRequestOperation.m in Sources */,
+				DDF8C64E1EE52DA0004715F8 /* SAMKeychain.m in Sources */,
 				DDF8C6241EE509B3004715F8 /* AFURLConnectionOperation.m in Sources */,
 				DDF8C53B1EE426C3004715F8 /* YJProgressHUD.m in Sources */,
 				DDF8C4851EE2F069004715F8 /* ItemView.m in Sources */,
@@ -1122,6 +1147,7 @@
 				DDF8C5F01EE50236004715F8 /* MineVC.m in Sources */,
 				DDF8C52F1EE41C55004715F8 /* MACenterAnnotation.m in Sources */,
 				DDF8C63E1EE5105D004715F8 /* AppDelegate.m in Sources */,
+				DDF8C64F1EE52DA0004715F8 /* SAMKeychainQuery.m in Sources */,
 				DDF8C5171EE3AA52004715F8 /* CommonUtility.m in Sources */,
 				DDF8C5D31EE5022D004715F8 /* Trip_cell.m in Sources */,
 				DDF8C6201EE509B3004715F8 /* AFHTTPRequestOperationManager.m in Sources */,

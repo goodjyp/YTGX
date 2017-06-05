@@ -9,7 +9,7 @@
 #import "NetWorkToolManager.h"
 #import "MJExtension.h"
 //#import "UserUseBikeManager.h"
-//#import "NSString+Extension.h"
+#import "NSString+Extension.h"
 
 @implementation NetWorkToolManager
 Singleton_m(NetWorkToolManager)

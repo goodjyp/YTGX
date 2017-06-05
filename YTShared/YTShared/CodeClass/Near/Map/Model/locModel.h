@@ -20,4 +20,5 @@
 @property (nonatomic , strong) NSString *district; //地区
 @property (nonatomic , assign) CGFloat latitude; //纬度
 @property (nonatomic , assign) CGFloat longitude; // 经度
+- (instancetype)initWithDic:(NSDictionary *)dic;
 @end

@@ -19,6 +19,7 @@
 #import "LocationBikeVM.h"
 #import "MMExampleDrawerVisualStateManager.h"
 #import "MANaviRoute.h"
+#import "SearchViewController.h"
 #define DefaultLocationTimeout  6
 #define DefaultReGeocodeTimeout 3
 #define APPOINTMENT_H 200.f
@@ -43,6 +44,9 @@
 @property (nonatomic) MANaviRoute * naviRoute;
 @property (nonatomic, strong) AMapRoute *route;
 
+@property (weak , nonatomic)SearchViewController *searchVc;
+// 路线规划
+@property (nonatomic, strong) AMapSearchAPI *search;
 
 @end
 
@@ -63,6 +67,10 @@
     [self.view addSubview:menuBV];
     self.mapView.logoCenter = CGPointMake(40, kHeight - 160);//设置高德地图4个字的中心点位置
     [self centerImageView];
+    
+    self.search = [[AMapSearchAPI alloc] init];
+    self.search.delegate = self;
+    
     [self initCompleteBlock];
     [self configLocationManager];
     self.mapView.customizeUserLocationAccuracyCircleRepresentation = YES;
@@ -71,6 +79,14 @@
     
     
     
+}
+
+- (SearchViewController *)searchVc
+{
+    if (!_searchVc) {
+        _searchVc = [[SearchViewController alloc] init];
+    }
+    return _searchVc;
 }
 
 - (void)clickMenuBarWithIndex:(NSInteger)index
@@ -371,10 +387,14 @@
 }
 
 
-#pragma mark =====左侧分享=====
+#pragma mark =====左侧搜索=====
 - (void)handleLeftBarButton:(UIBarButtonItem *)leftSender
 {
-    
+    SearchViewController *vc = [[SearchViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    vc.address = self.centerAnnotation.title;
+    vc.homeVc = self;
+
 }
 
 - (void)handleRightBarButton:(UIBarButtonItem *)rightsender

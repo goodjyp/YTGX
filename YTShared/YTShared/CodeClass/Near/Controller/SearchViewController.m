@@ -105,7 +105,7 @@ static NSString *indentity = @"cell";
 {
     [super viewDidLoad];
     
-    [self.navigationItem setHidesBackButton:YES];
+    [self.navigationItem setHidesBackButton:NO];
     
     [self setUpNavUI];
     
@@ -313,8 +313,8 @@ static NSString *indentity = @"cell";
     
         return [tableView dequeueReusableCellWithIdentifier:@"history"];
     
-    }else
-    {
+    }
+    else{
         if (!cell) {
             
             cell = [[LocationTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indentity];
