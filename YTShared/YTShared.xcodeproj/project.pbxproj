@@ -12,7 +12,6 @@
 		DDF8C44C1EE2E48C004715F8 /* YTShared.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C44A1EE2E48C004715F8 /* YTShared.xcdatamodeld */; };
 		DDF8C44E1EE2E48C004715F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C44D1EE2E48C004715F8 /* Assets.xcassets */; };
 		DDF8C4511EE2E48C004715F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C44F1EE2E48C004715F8 /* LaunchScreen.storyboard */; };
-		DDF8C45B1EE2F01A004715F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4591EE2F01A004715F8 /* AppDelegate.m */; };
 		DDF8C4611EE2F046004715F8 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C45E1EE2F046004715F8 /* BaseTabBarController.m */; };
 		DDF8C4621EE2F046004715F8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4601EE2F046004715F8 /* BaseViewController.m */; };
 		DDF8C4811EE2F069004715F8 /* MyMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4701EE2F069004715F8 /* MyMessageVC.m */; };
@@ -114,6 +113,7 @@
 		DDF8C62D1EE509B3004715F8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61A1EE509B3004715F8 /* UIProgressView+AFNetworking.m */; };
 		DDF8C62E1EE509B3004715F8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61C1EE509B3004715F8 /* UIRefreshControl+AFNetworking.m */; };
 		DDF8C62F1EE509B3004715F8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C61E1EE509B3004715F8 /* UIWebView+AFNetworking.m */; };
+		DDF8C63E1EE5105D004715F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C63D1EE5105D004715F8 /* AppDelegate.m */; };
 		EC5F94083E88B20DE28D280E /* libPods-YTShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */; };
 /* End PBXBuildFile section */
 
@@ -128,8 +128,6 @@
 		DDF8C44D1EE2E48C004715F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDF8C4501EE2E48C004715F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDF8C4521EE2E48C004715F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDF8C4581EE2F01A004715F8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DDF8C4591EE2F01A004715F8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDF8C45D1EE2F046004715F8 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		DDF8C45E1EE2F046004715F8 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		DDF8C45F1EE2F046004715F8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -332,6 +330,8 @@
 		DDF8C61C1EE509B3004715F8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		DDF8C61D1EE509B3004715F8 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		DDF8C61E1EE509B3004715F8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		DDF8C63C1EE5105D004715F8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF8C63D1EE5105D004715F8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -390,8 +390,8 @@
 		DDF8C43D1EE2E48C004715F8 /* YTShared */ = {
 			isa = PBXGroup;
 			children = (
+				DDF8C63B1EE5105D004715F8 /* Application */,
 				DDF8C5741EE42F27004715F8 /* Common */,
-				DDF8C45A1EE2F01A004715F8 /* Application */,
 				DDF8C45C1EE2F046004715F8 /* BaseClass */,
 				DDF8C4631EE2F069004715F8 /* CodeClass */,
 				DDF8C4861EE2F086004715F8 /* OtherSource */,
@@ -414,16 +414,6 @@
 				DDF8C49C1EE2F154004715F8 /* YTShared.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DDF8C45A1EE2F01A004715F8 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				DDF8C4581EE2F01A004715F8 /* AppDelegate.h */,
-				DDF8C4591EE2F01A004715F8 /* AppDelegate.m */,
-			);
-			name = Application;
-			path = ../../../pc6/YTShared/YTShared/Application;
 			sourceTree = "<group>";
 		};
 		DDF8C45C1EE2F046004715F8 /* BaseClass */ = {
@@ -915,6 +905,15 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		DDF8C63B1EE5105D004715F8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8C63C1EE5105D004715F8 /* AppDelegate.h */,
+				DDF8C63D1EE5105D004715F8 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1084,7 +1083,6 @@
 				DDF8C56F1EE42EB4004715F8 /* MMDrawerBarButtonItem.m in Sources */,
 				DDF8C4821EE2F069004715F8 /* NearVC.m in Sources */,
 				DDF8C5201EE3AA52004715F8 /* MANaviAnnotationView.m in Sources */,
-				DDF8C45B1EE2F01A004715F8 /* AppDelegate.m in Sources */,
 				DDF8C5211EE3AA52004715F8 /* UIView+Toast.m in Sources */,
 				DDF8C5601EE42C70004715F8 /* NSObject+MJKeyValue.m in Sources */,
 				DDF8C5861EE43BFF004715F8 /* UIBarButtonItem+Extension.m in Sources */,
@@ -1124,6 +1122,7 @@
 				DDF8C5F21EE50236004715F8 /* RulesViewController.m in Sources */,
 				DDF8C5F01EE50236004715F8 /* MineVC.m in Sources */,
 				DDF8C52F1EE41C55004715F8 /* MACenterAnnotation.m in Sources */,
+				DDF8C63E1EE5105D004715F8 /* AppDelegate.m in Sources */,
 				DDF8C5171EE3AA52004715F8 /* CommonUtility.m in Sources */,
 				DDF8C5D31EE5022D004715F8 /* Trip_cell.m in Sources */,
 				DDF8C6201EE509B3004715F8 /* AFHTTPRequestOperationManager.m in Sources */,
